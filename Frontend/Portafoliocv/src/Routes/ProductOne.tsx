@@ -1,5 +1,6 @@
 import wizard1 from "../assets/wizard1.png";
 import wizard2 from "../assets/wizard2.png";
+import wizard3 from "../assets/wizard3.gif";
 
 const ProductOne = () => {
   return (
@@ -92,7 +93,7 @@ const ProductOne = () => {
             </span>
           </p>
           <img
-            src="/src/assets/wizard3.gif"
+            src={wizard3}
             className="w-full md:w-250 h-110 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
           />
         </section>
