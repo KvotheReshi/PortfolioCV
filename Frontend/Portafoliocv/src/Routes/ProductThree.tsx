@@ -28,7 +28,7 @@ const ProductThree = () => {
 
           <img
             src={dndnotes2}
-            alt="Weather Wizard Screenshot"
+            alt="DnDnotes Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
               WebkitMaskImage:
@@ -47,7 +47,7 @@ const ProductThree = () => {
         <section className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10">
           <img
             src={dndnotes3}
-            alt="Weather Wizard Screenshot"
+            alt="DnDnotes Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
               WebkitMaskImage:
@@ -77,7 +77,7 @@ const ProductThree = () => {
             <p className="mt-3">
               <span className="font-semibold">Deployment link:</span> <br />
               <a
-                href="https://weather-wizard-je9z.onrender.com/"
+                href="https://dndnotes-5faa.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline break-all"
