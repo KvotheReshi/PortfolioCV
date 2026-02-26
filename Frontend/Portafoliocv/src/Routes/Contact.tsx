@@ -1,3 +1,5 @@
+import profilepic from "../assets/cvpic2.png";
+
 const Contact = () => {
   return (
     <div className="min-h-screen w-full bg-slate-100 px-4 pt-28 pb-16">
@@ -22,7 +24,7 @@ const Contact = () => {
             <div className="w-full md:w-50 flex flex-col">
               <div className="rounded-2xl border border-zinc-300 bg-slate-50 p-3 shadow-sm">
                 <img
-                  src="/src/assets/cvpic2.png"
+                  src={profilepic}
                   alt="Efrén Castillo Morales"
                   className="w-full h-auto rounded-xl object-cover"
                 />

@@ -1,4 +1,5 @@
-
+import starland1 from "../assets/starland1.png";
+import starland3 from "../assets/starland3.png";
 const ProductTwo = () => {
   return (
     <div className="min-h-screen w-full bg-slate-200 flex items-start justify-center px-4 sm:px-6 pt-24 pb-16">
@@ -21,7 +22,7 @@ const ProductTwo = () => {
           </p>
 
           <img
-            src="/src/assets/starland1.png"
+            src={starland1}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
@@ -40,7 +41,7 @@ const ProductTwo = () => {
         {/* Row 2 */}
         <section className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10">
           <img
-            src="/src/assets/starland3.png"
+            src={starland3}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{

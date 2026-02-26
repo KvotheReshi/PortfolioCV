@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Cvfile from "../assets/CvFile.pdf";
+import profilepic from "../assets/cvpic2.png";
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ return (
           <div className="w-full md:w-60 flex flex-col">
             <div className="rounded-2xl border border-zinc-300 bg-slate-50 p-3 shadow-sm">
               <img
-                src="/src/assets/cvpic2.png"
+                src={profilepic}
                 alt="Efren Castillo Morales"
                 className="w-full h-auto rounded-xl object-cover"
               />

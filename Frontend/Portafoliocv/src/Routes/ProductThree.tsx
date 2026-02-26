@@ -1,3 +1,6 @@
+import dndnotes2 from "../assets/dndnotes2.png";
+import dndnotes3 from "../assets/dndnotes3.png";
+import dndnotes6 from "../assets/dndnotes6.png";
 
 const ProductThree = () => {
   return (
@@ -24,7 +27,7 @@ const ProductThree = () => {
           </p>
 
           <img
-            src="/src/assets/dndnotes2.png"
+            src={dndnotes2}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
@@ -43,7 +46,7 @@ const ProductThree = () => {
         {/* Row 2 */}
         <section className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10">
           <img
-            src="/src/assets/dndnotes3.png"
+            src={dndnotes3}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
@@ -89,7 +92,7 @@ const ProductThree = () => {
           <p className="text-slate-900 text-base sm:text-lg leading-relaxed flex-1 min-w-0">
             <span className="font-serif italic text-3xl">Choose your favorite background:</span>
           </p>
-          <img src="/src/assets/dndnotes6.png"
+          <img src={dndnotes6}
           className="w-full md:w-300 h-140 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
           />
         </section>

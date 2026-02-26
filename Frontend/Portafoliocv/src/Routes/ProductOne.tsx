@@ -1,3 +1,6 @@
+import wizard1 from "../assets/wizard1.png";
+import wizard2 from "../assets/wizard2.png";
+
 const ProductOne = () => {
   return (
     <div className="min-h-screen w-full bg-slate-200 flex items-start justify-center px-4 sm:px-6 pt-24 pb-16">
@@ -21,7 +24,7 @@ const ProductOne = () => {
           </p>
 
           <img
-            src="/src/assets/wizard1.png"
+            src={wizard1}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
@@ -40,7 +43,7 @@ const ProductOne = () => {
         {/* Row 2 */}
         <section className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10">
           <img
-            src="/src/assets/wizard2.png"
+            src={wizard2}
             alt="Weather Wizard Screenshot"
             className="w-full md:w-130 max-w-full aspect-video object-cover rounded-lg shadow-lg border-2 border-black"
             style={{
