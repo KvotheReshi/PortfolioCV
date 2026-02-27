@@ -1,4 +1,6 @@
 import profilepic from "../assets/cvpic2.png";
+import github1 from "../assets/Logos/github.svg";
+import linkedin1 from "../assets/Logos/linkedin.svg";
 
 const Contact = () => {
   return (
@@ -48,7 +50,7 @@ const Contact = () => {
                   className="rounded-xl border border-zinc-200 bg-white px-4 py-3 shadow-sm hover:bg-slate-50 transition"
                 >
                   <img
-                    src="/src/assets/Logos/github.svg"
+                    src={github1}
                     className="h-6 w-6 inline mr-2 mb-2"
                     alt="Github logo"
                   />
@@ -61,7 +63,7 @@ const Contact = () => {
                   className="rounded-xl border border-zinc-200 bg-white px-4 py-3 shadow-sm hover:bg-slate-50 transition"
                 >
                   <img
-                    src="/src/assets/Logos/linkedin.svg"
+                    src={linkedin1}
                     className="h-6 w-6 inline mr-2 mb-2"
                     alt="Linkedin logo"
                   />
