@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gray-800 shadow-lg flex items-center justify-around py-2.5 px-4 sm:px-16 fixed top-0 w-full z-50">
+    <nav className="bg-gray-800 shadow-lg flex items-center justify-around py-2.5 px-4 sm:px-16 fixed top-0 w-full md:w-full z-50">
       <Link to="/" className="shrink-0">
         <span className="font-semibold text-lg flex items-center gap-3 text-blue-400">
           <img src={LogoECM} className="w-16 sm:w-48 sm:h-12 text-4xl sm:text-6xl" />
