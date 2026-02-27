@@ -27,10 +27,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-gray-800 shadow-lg flex items-center justify-around py-2.5 px-4 sm:px-16 fixed top-0 w-full md:w-full z-50">
-      <Link to="/" className="shrink-0">
+    <nav className="bg-gray-800 shadow-lg flex flex-wrap items-center justify-between gap-1 px-2 py-1.5 sm:px-4 sm:py-2 fixed top-0 left-0 w-full z-50">
+      <Link to="/" className="basis-full flex justify-center sm:basis-auto sm:justify-start sm:shrink-0">
         <span className="font-semibold text-lg flex items-center gap-3 text-blue-400">
-          <img src={LogoECM} className="w-16 sm:w-48 sm:h-12 text-4xl sm:text-6xl" />
+          <img src={LogoECM} className="w-32 sm:w-48 sm:h-12 text-4xl sm:text-6xl" />
         </span>
       </Link>
 
