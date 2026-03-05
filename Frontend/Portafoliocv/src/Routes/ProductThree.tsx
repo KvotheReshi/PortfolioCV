@@ -93,7 +93,7 @@ const ProductThree = () => {
             <span className="font-serif italic text-3xl">Choose your favorite background:</span>
           </p>
           <img src={dndnotes6}
-          className="w-full md:w-300 h-140 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
+          className="w-full md:w-280 md:h-120 h-65 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
           />
         </section>
       </div>

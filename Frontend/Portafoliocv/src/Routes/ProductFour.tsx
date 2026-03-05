@@ -12,7 +12,7 @@ const ProductFour = () => {
           <img
             src={burger3}
             alt="Chicken Burger Screenshot"
-            className="w-full h-200 md:w-140 max-w-full aspect-video object-fill rounded-lg shadow-lg border-2 border-black"
+            className="w-full md:h-200 h-180 md:w-140 max-w-full aspect-video object-fill rounded-lg shadow-lg border-2 border-black"
             style={{
               WebkitMaskImage:
                 "linear-gradient(to right, white 0%, white 55%, rgba(255,255,255,.85) 70%, rgba(255,255,255,.30) 85%, transparent 100%)",

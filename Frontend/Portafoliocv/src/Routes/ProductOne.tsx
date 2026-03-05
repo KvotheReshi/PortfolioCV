@@ -94,7 +94,7 @@ const ProductOne = () => {
           </p>
           <img
             src={wizard3}
-            className="w-full md:w-250 h-110 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
+            className="w-full md:w-250 h-60 md:h-110 max-w-full  object-fill rounded-lg shadow-2xl shadow-black border-2 mt-2"
           />
         </section>
       </div>
