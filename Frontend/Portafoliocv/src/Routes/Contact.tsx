@@ -95,7 +95,7 @@ const Contact = () => {
                 <div className="rounded-2xl border border-zinc-200 bg-slate-50 p-5 shadow-sm">
                   <p className="text-sm text-zinc-500">LinkedIn</p>
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/efr%C3%A9n-castillo-morales-9363612b0"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 block text-base sm:text-lg text-zinc-800 hover:underline break-all"
